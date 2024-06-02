@@ -6,8 +6,15 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class JhooqDockerDemoController {
 
+
+    @GetMapping("/")
+    public String main() {
+        return "V1";
+    }
+    
     @GetMapping("/hello")
     public String hello() {
-        return "Docker Demo - Hello Jhooq";
+        return "Docker Demo - Hello Rassil";
     }
+
 }
