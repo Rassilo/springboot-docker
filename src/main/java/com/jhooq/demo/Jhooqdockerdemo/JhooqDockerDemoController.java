@@ -9,7 +9,7 @@ public class JhooqDockerDemoController {
 
     @GetMapping("/")
     public String main() {
-        return "V2 - 2024-06-02 15:30";
+        return "V3 - 2024-06-02 15:30";
     }
 
     @GetMapping("/hello")
