@@ -40,7 +40,7 @@ jobs:
       - name: Get GKE credentials
         run: |
           gcloud components install kubectl
-          gcloud container clusters get-credentials primary-cluster --region us-central1
+          gcloud container clusters get-credentials main-cluster --region us-central1
 
       - name: Deploy to GKE
         run: |
