@@ -9,9 +9,9 @@ public class JhooqDockerDemoController {
 
     @GetMapping("/")
     public String main() {
-        return "V1";
+        return "V2 - 2024-06-02 15:30";
     }
-    
+
     @GetMapping("/hello")
     public String hello() {
         return "Docker Demo - Hello Rassil";
